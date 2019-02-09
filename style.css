@@ -1,0 +1,49 @@
+body {
+	background-color: LightGray;
+}
+
+h1 {
+	font-family: "Lucida Console", sans-serif;
+	font-size: 250%;
+}
+
+h2 {
+	font-family: "Lucida Console", sans-serif;
+	font-size: 200%;
+	text-align: center;
+}
+
+#topleftlogo {
+	width: 130px;
+	height: auto;
+	float: left;
+}
+
+#headertext {
+	padding-top: 70px
+}
+
+.menu-bar {
+	background-color: Gray;
+	
+	margin-top: 35px;
+	margin-bottom: 35px;
+	clear: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-bar a {
+	font-family: "Lucida Console", sans-serif;
+	font-size: 130%;
+	text-decoration: none;
+	color: Black;
+	background-color: Gray;
+	
+	padding: 14px 16px;
+}
+
+.menu-bar a:hover {
+	color: #33dd33;
+	background-color: #505050;
+}
